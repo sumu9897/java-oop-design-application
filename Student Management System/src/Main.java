@@ -32,7 +32,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Student s = new Student("S101", "Sumu", 75);
+        Student s = new Student("S101", "SUMON", 75);
         s.addBonusMarks(10);
         s.checkPass();
         s.displayStudentInfo();
